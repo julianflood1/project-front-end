@@ -1,7 +1,7 @@
 h1  {
-  -webkit-animation: neon 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon 1.5s ease-in-out infinite alternate;
-  animation: neon 1.5s ease-in-out infinite alternate;
+  -webkit-animation: neon 1s ease-in-out infinite alternate;
+  -moz-animation: neon 1s ease-in-out infinite alternate;
+  animation: neon 1s ease-in-out infinite alternate;
   font-family: Pacifico;
   font-size: 90px;
   text-align: center;
@@ -12,13 +12,13 @@ h1  {
   background-image: url("img/bar.jpg");
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 130vh;
   width: 100%;
   justify-content: center;
 }
 
 .main-content {
-  height: 100vh;
+  height: 100%;
   background-color: #300202;
   width: 60%;
   // opacity: .8;
@@ -26,9 +26,9 @@ h1  {
 
 
 .form-wrapper {
-  height: 100vh;
+  margin-top: -200px;
+  height: 130vh;
   width: 100%;
-  padding: 200px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
